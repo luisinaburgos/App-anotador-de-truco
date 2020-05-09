@@ -1,0 +1,237 @@
+    @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Roboto&display=swap');
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .visible {
+        display: block;
+        visibility: visible;
+    }
+
+    .invisible {
+        display: none;
+        visibility: hidden;
+    }
+
+    #cuerpo3 {
+        background-color: black;
+        height: 100vh;
+        display: flex;
+       flex-direction: column;
+       align-items: center;
+      }
+
+    #caja4 {
+        background-color: #138900;
+        text-align: center;
+        height: 40vh;
+        font-family: 'Amatic SC', cursive;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        margin-bottom: 20%;
+
+    }
+
+    #ganador {
+        font-family: 'Amatic SC', cursive;
+        font-size: 100px;
+    }
+
+    #inicio {
+        width: 50%;
+        background-color: #f1a100;
+    }
+
+    #logo {
+        width: 80%;
+    }
+
+
+    .cuerpo {
+        background-color: black;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        
+
+        
+    }
+
+    .cuerpo2 {
+        background-color: black;
+        height: 100vh;
+        
+        
+    }
+
+    .equipos {
+        text-align: center;
+        font-size: 48px;
+    }
+    .equipos::placeholder {
+        text-align: center;
+        font-size: 48px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .botones1 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10%;
+       
+    }
+    .botones2 {
+         margin-bottom: 10%;
+        display: flex;
+        justify-content: center;
+    }
+    .botones3 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10%;
+    }
+    .botones4 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .equipos {
+        width: 60%;
+        height: 10vh;
+    }
+    .boton {
+        width: 40%;
+        height: 10vh;
+        font-size: 48px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 10vh;
+        padding:2% 5%;
+    }
+    .header2 {
+        display: flex;
+        flex-direction: row;
+       border-bottom:4px solid white ;
+    }
+    .header3 {
+        display: flex;
+        flex-direction: row;
+       
+    }
+
+    .caja1 {
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 12vh;
+        align-items: center;
+    }
+
+    h2 {
+        font-family: 'Amatic SC', cursive;
+        font-size: 80px;
+        margin: 10%;
+        color: white;
+    }
+
+    .colores {
+       
+        height: 10vh;
+        width: 15%;
+       
+    }
+
+    input[type="button"] {
+        align-items: center;
+        background-color: white;
+        min-height: 150px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 80px;
+        color: black;
+        min-width: 150px;
+    }
+
+
+    #izquierda2 {
+        border-right: 4px solid white;
+    }
+
+    .anotacion {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .anotacion2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+      
+        
+    }
+
+    img {
+        margin: 5% 0;
+        width: 30%;
+    }
+
+    h3 {
+        text-align: center;
+        color: white;
+        font-size: 48px;
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+    }
+
+    h1 {
+        color: white;
+        font-size: 100px;
+        margin: 0 5%;
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+    }
+
+    .puntuacion {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 2% 5%;
+    }
+
+    .sumar {
+        border-radius: 80px;
+        border-color: white;
+        border-style: none;
+    }
+
+    .boton2 {
+        width: 40%;
+        height: 10vh;
+        font-family: 'Roboto', sans-serif;
+        font-weight: medium;
+        margin: 0 1%;
+    }
+
+    #truco {
+        width: 100%;
+    }
+
+    #fin {
+        background-color: #138900;
+    }
+

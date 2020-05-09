@@ -1,0 +1,109 @@
+  <!DOCTYPE html>
+  <html lang="es">
+  <head>
+     <meta charset="UTF-8"> 
+     <title>Anotador de truco</title>
+     <link rel="stylesheet" href="miestilo.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <script src="mijs.js"></script>
+  </head>
+
+
+<body>
+
+
+    <div id="pantalla1" class="visible">
+     <div class="cuerpo">
+      <img src="img/truco.png" id="truco"> 
+        <div class="botones1">
+            <input type="text" id="equipo1" class="equipos" placeholder="Nombre y color-Equipo1" /> 
+            <input type="color" class="colores" id="color1" value="#f1a100" />
+        </div>
+
+         <div class="botones2">
+            <input type="text" id="equipo2" class="equipos" placeholder="Nombre y color-Equipo2" />
+            <input type="color" class="colores" id="color2" value="#b00015" />
+        </div>
+
+        <div class="botones3">
+            <input type="button" id="boton1" class="boton2" value="A 24" />
+            <input type="button" id="boton2" class="boton2" value="A 30" />
+        </div>
+
+        <div class="botones4">
+            <input type="button" id="iniciar" class="boton" value="INICIAR" />
+        </div>
+
+      </div>
+    </div>
+
+
+    <div id="pantalla2" class="invisible">
+
+      <div class="cuerpo2">
+          <div class="header">
+              <div class="caja1" >
+                <input type="button" id="sumar1" class="sumar" value="+" />
+                <h2 id="nombre1">Equipo 1</h2>
+              </div>
+              <div class="caja1" id="derecha">
+                <h2 id="nombre2">Equipo 2</h2>
+                <input type="button" id="sumar2" class="sumar" value="+" />
+              </div>
+          </div>
+         <div class="header2">
+              <div class="anotacion" id="izquierda2">
+                 <img src="img/0.png" id="img1" class="fosforo" >
+                 <img src="img/0.png" id="img2" class="fosforo" >
+                 <img src="img/0.png" id="img3" class="fosforo" >
+              </div>
+              <div class="anotacion">
+                 <img src="img/0.png" id="img7" class="fosforo" >
+                 <img src="img/0.png" id="img8" class="fosforo" >
+                 <img src="img/0.png" id="img9" class="fosforo" >
+              </div>
+          </div>
+           <div class="header3">
+              <div class="anotacion2" id="izquierda2">
+                 <img src="img/0.png" id="img4" class="fosforo" >
+                 <img src="img/0.png" id="img5" class="fosforo" >
+                 <img src="img/0.png" id="img6" class="fosforo" >
+              </div>
+              <div class="anotacion2">
+                 <img src="img/0.png" id="img10"class="fosforo" >
+                 <img src="img/0.png" id="img11" class="fosforo" >
+                 <img src="img/0.png" id="img12" class="fosforo" >
+              </div>
+           </div>
+
+           <div class="tipodejuego">
+              <h3>A 30</h3>
+           </div>
+
+            <div class="puntuacion">
+              <input type="button" id="restar1" class="sumar" value="-" />
+              <h1 id="contador1">0</h1>
+              <input type="button" id="fin" class="boton" value="FIN" />
+              <h1 id="contador2">0</h1>
+              <input type="button" id="restar2" class="sumar" value="-" />
+
+
+            </div>
+      </div>
+    </div>
+
+
+    <div id="pantalla3" class="invisible">
+      <div id="cuerpo3">
+      <img src="img/truco.png" id="logo">
+      <div id="caja4">
+    <h1 id="ganador">Felicidades</h1>
+    </div>
+    <input type="button" id="inicio" value="INICIO">
+    </div>
+    </div>
+
+
+
+</body>
+</html>
